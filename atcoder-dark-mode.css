@@ -72,7 +72,7 @@ table.table th, table.table-bordered th, table.table-striped th {
 }
 
 .table-striped>tbody>tr:nth-of-type(odd) {
-    background-color: #444444;
+    background-color: #333333;
 }
 
 /* Links */
