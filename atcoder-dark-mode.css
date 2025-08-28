@@ -1,0 +1,143 @@
+/* AtCoder Dark Mode by Gemini */
+
+/* Body and general text color */
+body {
+    background-color: #1e1e1e !important;
+    color: #d4d4d4 !important;
+}
+
+/* Main container */
+#main-container {
+    background-color: #252526 !important;
+}
+
+/* Navbar */
+.navbar, #contest-nav-tabs {
+    background-color: #333333 !important;
+    border-bottom: 1px solid #444444 !important;
+}
+
+small.contest-duration {
+    color: #d4d4d4;
+}
+
+.navbar .navbar-nav > li > a,
+.navbar .navbar-brand {
+    color: #d4d4d4 !important;
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-brand:hover {
+    color: #ffffff !important;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs>li>a:hover,
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    background-color: #444444;
+    border: #444444;
+}
+
+/* Panels */
+.panel {
+    background-color: #252526 !important;
+}
+
+.panel-default > .panel-heading {
+    background-color: #333333 !important;
+    color: #d4d4d4 !important;
+}
+
+/* Tables */
+table.table, table.table-bordered, table.table-striped {
+    background-color: #252526 !important;
+    color: #d4d4d4 !important;
+}
+
+table.table th, table.table-bordered th, table.table-striped th {
+    background-color: #333333 !important;
+    color: #d4d4d4 !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #444444;
+}
+
+/* Links */
+a {
+    color: #4e94ce !important;
+}
+
+a:hover {
+    color: #7bb2d9 !important;
+}
+
+/* Buttons */
+.btn-default {
+    color: #d4d4d4 !important;
+    background-color: #333333 !important;
+    border-color: #444444 !important;
+}
+
+.btn-default:hover {
+    background-color: #444444 !important;
+}
+
+.contest-timer {
+    color: #333;
+}
+
+/* Task page specific */
+#task-statement {
+    background-color: #252526 !important;
+    color: #d4d4d4 !important;
+}
+
+#task-statement .part h3 {
+    color: #d4d4d4 !important;
+}
+
+pre {
+    background-color: #1e1e1e !important;
+    color: #d4d4d4 !important;
+}
+
+h3 {
+    color: #d4d4d4 !important;
+}
+
+#copyright {
+    color: #d4d4d4 !important;
+}
+
+.badge {
+    background-color: #4e94ce !important;
+    color: #ffffff !important;
+}
+
+.alert {
+    background-color: #333333 !important;
+    color: #d4d4d4 !important;
+}
+
+.lang-selector {
+    background-color: #252526 !important;
+    color: #d4d4d4 !important;
+}
+
+#submit-task-form .form-horizontal .control-label {
+    color: #d4d4d4 !important;
+}
+
+#submit-task-form .form-control {
+    background-color: #1e1e1e !important;
+    color: #d4d4d4 !important;
+}
+
+#submit-task-form .btn-primary {
+    background-color: #4e94ce !important;
+    border-color: #4e94ce !important;
+}
