@@ -85,6 +85,11 @@ table.table th, table.table-bordered th, table.table-striped th {
     background-color: #333333;
 }
 
+.table-striped>tbody>tr:nth-of-type(odd):hover,
+.table-hover>tbody>tr:hover {
+    background-color: #666666;
+}
+
 /* Links */
 a {
     color: #4e94ce !important;
