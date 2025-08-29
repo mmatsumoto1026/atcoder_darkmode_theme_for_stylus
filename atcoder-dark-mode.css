@@ -31,6 +31,7 @@ small.contest-duration {
 
 .navbar .navbar-nav > li > a,
 .navbar .navbar-brand {
+    background-color: #333333 !important;
     color: #d4d4d4 !important;
 }
 
@@ -43,11 +44,20 @@ small.contest-duration {
     border-bottom: none;
 }
 
+
 .nav-tabs>li>a:hover,
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus,
+.nav-tabs>li.open>a, .nav-tabs>li.open>a:hover, .nav-tabs>li.open>a:focus {
     background-color: #444444;
     border: 1px solid #444444;
+}
 
+.nav-tabs>li>a.dropdown-toggle {
+    background-color: #333333;
+}
+
+.dropdown-menu {
+    background-color: #444444;
 }
 
 /* Panels */
