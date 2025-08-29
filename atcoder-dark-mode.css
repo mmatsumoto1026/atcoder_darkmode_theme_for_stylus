@@ -52,8 +52,8 @@ small.contest-duration {
     border: 1px solid #444444;
 }
 
-.nav-tabs>li>a.dropdown-toggle {
-    background-color: #333333;
+.nav-tabs>li>a {
+    background-color: #333333 !important;
 }
 
 .dropdown-menu {
