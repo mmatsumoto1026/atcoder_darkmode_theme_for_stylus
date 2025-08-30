@@ -8,8 +8,7 @@ https://opensource.org/license/mit
 
 /* AtCoder Dark Mode by Gemini */
 
-:root,
-[data-bs-theme=dark] {
+:root {
     --bs-body-color: #adb5bd;
     --bs-body-bg: #212529;
     --bs-secondary-bg: #343a40;
