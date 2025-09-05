@@ -126,7 +126,7 @@ small.contest-duration, .small {
 }
 
 /* Tables */
-table.table, table.table-bordered, table.table-striped {
+table.table, table.table-bordered, table.table-striped, table.table-hover {
     background-color: var(--bs-tertiary-bg) !important;
     color: var(--bs-body-color) !important;
 }
@@ -147,6 +147,10 @@ table.table th, table.table-bordered th, table.table-striped th, .table > thead 
 
 .table>thead>tr>td.info, .table>tbody>tr>td.info, .table>tfoot>tr>td.info, .table>thead>tr>th.info, .table>tbody>tr>th.info, .table>tfoot>tr>th.info, .table>thead>tr.info>td, .table>tbody>tr.info>td, .table>tfoot>tr.info>td, .table>thead>tr.info>th, .table>tbody>tr.info>th, .table>tfoot>tr.info>th {
     background-color: #676767 !important;
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: #454d54;
 }
 
 /* Links */
