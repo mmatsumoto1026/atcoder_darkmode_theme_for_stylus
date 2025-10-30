@@ -159,12 +159,7 @@ a {
 }
 
 a:hover {
-    background-color: #555 !important;
-    color: #555 !important;
-}
-
-.spoiler:not(:hover) {
-    background-color: var(--bs-link-color) !important;
+    color: var(--bs-link-hover-color) !important;
 }
 
 /* Buttons */
