@@ -162,6 +162,11 @@ a:hover {
     color: var(--bs-link-hover-color) !important;
 }
 
+.spoiler:not(:hover) {
+    background-color: #555 !important;
+    color: #555 !important;
+}
+
 /* Buttons */
 .btn-default {
     color: var(--bs-body-color) !important;
